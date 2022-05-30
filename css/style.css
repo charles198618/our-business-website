@@ -1,14 +1,84 @@
-
-/* Polices */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swa   p');
-
-/* Les couleurs */
-
+/* Initialiation des variables */
 :root {
-    --CouleurNavaBar: #2155cd;
-    --CouleurLink: #ffffff;
+
+    --nav : #0AA1DD;
+    --primary: #29e9bc;
+    --normal: #ffffff;
+    --black: #13131a;
+    --white:white;
+    --blue:rgba(59, 130, 246, 0.4);
+    --bg: #0c1013;
+    --danger: #f75842;
+    --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+
+/* Les Tailles des écrants */
+    --container-width-lg: 80%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
 }
+
+/* Les selecteurs universel */
+
+* {
+    font-family: 'Roboto', 'sans-serif';
+    margin: 0;
+    padding: 0;
+    outline-offset: none;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.5s linear;
+    scroll-behavior: smooth;
+}
+
+
+/* NAV-BAR
 
 nav {
-    background-color: var(--CouleurNavaBar);
+    background-color: var(--nav);
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
+
+.nav_menu {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    color:var(--white);
+    
+}
+
+.nav_menu a {
+    font-size: 1rem;
+    color:var(--white);  
+}
+
+.nav_menu a:hover {
+    color: var(--primary);
+    border-bottom: 3px solid var(--primary);
+    padding-bottom: 0.8rem;
+    background-color: var(--black);
+}
+
+.nav_container span {
+    color: var(--primary);
+}
+
+.nav_container h4 {
+    font-size: 1.8rem;
+    color:var(--white);
+}
+
+.nav_container h4::first-letter {
+    font-size: 2rem;
+}
+
+.nav_container h4:hover {
+    color: var(--primary);
+    transform: rotateX(360deg);
+    transition-duration: 1.2s;
+} */
