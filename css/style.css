@@ -31,7 +31,16 @@
     transition: all 0.5s linear;
     scroll-behavior: smooth;
 }
-
+.navbar{
+    background-color: var(--nav);
+}
+.nav-link{
+    color: white;
+    font-size: 1.2em;
+}
+.nav-link:hover{
+    color: ;
+}
 
 /* NAV-BAR
 
