@@ -1,0 +1,14 @@
+
+/* Polices */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swa   p');
+
+/* Les couleurs */
+
+:root {
+    --CouleurNavaBar: #2155cd;
+    --CouleurLink: #ffffff;
+}
+
+nav {
+    background-color: var(--CouleurNavaBar);
+}
