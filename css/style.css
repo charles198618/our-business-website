@@ -262,6 +262,59 @@ header::before {
     margin-top: 50px;
 }
 
+/* ======Footer SECTION======= */
+footer {
+    margin-top:20px;
+    padding-top: 5rem;
+    background-color: var(--black);
+    font-size: 0.9rem;
+}
+
+.footer_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+}
+
+.footer_container>div h4 {
+    margin-bottom: 1.2rem;
+}
+
+.footer_1 p {
+    margin: 0 0 2rem;
+}
+.footer_1 span{
+    color:var(--primary);
+}
+
+footer ul li {
+    margin-bottom: 0.7rem;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: var(--primary);
+}
+
+.footer_4 .mail {
+    text-transform: lowercase;
+}
+
+.footer_social {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.footer_copyright {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.2rem 0;
+    border-top: 1px solid var(--normal);
+}
+
+
 /* ================ MEDIA QUERIES (TABLETTES)============ */
 
 @media screen and (max-width: 1024px) {
@@ -303,6 +356,9 @@ header::before {
 
     .btn {
         padding: 0.3rem 1.2rem;
+    }
+    .footer_container{
+        grid-template-columns: repeat(2,1fr);
     }
 
     /* ======NAVBAR OPEN======= */
@@ -437,5 +493,14 @@ header::before {
 
     .btn {
         padding: 0.3rem 1rem;
+    }
+    .footer_container{
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .footer_social{
+        justify-content: center;
     }
 }
