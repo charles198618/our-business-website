@@ -299,13 +299,21 @@ textarea{
     font-style: italic;
 }
 [type="submit"]{
-    background-color: var(--primary);
+    background-color: var(--blue);
     border-radius: 5px;
     padding: 10px 15px;
     font-size: 1.0em;
     font-style: italic;
     font-weight: bold;
+    color: var(--normal);
 }  
+
+[type="submit"]:hover{
+    background-color: var(--primary);
+   font-style: normal;
+    color: var(--black);
+    cursor: pointer;
+}
 
 /* ======Footer SECTION======= */
 footer {
