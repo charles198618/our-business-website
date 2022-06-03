@@ -287,24 +287,24 @@ header::before {
     width: 260px;
     outline: none;
     font-size: 1.0em;
-    font-style: italic;
-    font-weight: bold;
+    font-style: normal;
+    font-weight: ;
     color: black;
 } 
 textarea{
     outline: none;
     border-radius: 5px;
-    font-weight: bold;
+    font-weight: ;
     font-size: 1.0em;
-    font-style: italic;
+    font-style: normal;
 }
+
 [type="submit"]{
     background-color: var(--blue);
     border-radius: 5px;
     padding: 10px 15px;
     font-size: 1.0em;
-    font-style: italic;
-    font-weight: bold;
+    font-style: normal;
     color: var(--normal);
 }  
 
@@ -313,6 +313,7 @@ textarea{
    font-style: normal;
     color: var(--black);
     cursor: pointer;
+    font-weight: bold;
 }
 
 /* ======Footer SECTION======= */
