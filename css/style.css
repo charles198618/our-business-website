@@ -262,6 +262,51 @@ header::before {
     margin-top: 50px;
 }
 
+/**************** FORMULAIRE ***********************************/
+#flex-formulaire h2{
+    text-align: center;
+    font-weight: normal;
+}
+#flex-formulaire h2 span{
+    text-align: center;
+    font-size: 0.7em;
+    font-weight: normal;
+    color: var(--primary);
+}
+#flex-formulaire{
+    width: 80%;
+    margin: 30px;
+    padding: 60px 30px;
+    background-color: #0c1013;
+}
+[type="text"], [type="email"] {
+    margin: 15px;
+    border-radius: 5px;
+    gap: 15px;
+    padding: 10px;
+    width: 260px;
+    outline: none;
+    font-size: 1.0em;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+} 
+textarea{
+    outline: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.0em;
+    font-style: italic;
+}
+[type="submit"]{
+    background-color: var(--primary);
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1.0em;
+    font-style: italic;
+    font-weight: bold;
+}  
+
 /* ======Footer SECTION======= */
 footer {
     margin-top:20px;
