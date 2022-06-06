@@ -262,6 +262,53 @@ header::before {
     margin-top: 50px;
 }
 
+/* ======APROPOS DE NOUS======== */
+.about {
+    text-align: center;
+    background:var(--blue);
+   }
+   .about_container {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 2.5rem;
+   }
+   .about_container .about-img {
+    border: 3px solid var(--white);
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 12.5rem;
+    max-height: 12.5rem;
+    margin-right: 2rem;
+    position: relative;
+    align-items: center;
+    margin-bottom: 2rem;
+   }
+   .about_container .about-text {
+    max-width: 70%;
+    text-align: justify;
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 2.5rem;
+   }
+   .about_container .about-text p {
+    margin-bottom: 0.8rem;
+    color:var(--black);
+   }
+   .about_container .about-text .text {
+    margin-bottom: 1rem;
+   }
+   .about_container .about-text .text span {
+    color: var(--white);
+    font-weight: 500;
+   }
+   .border_bottom{
+    color:var(--white);
+    border-bottom: 2px solid var(--black);
+   }
+
 /**************** FORMULAIRE ***********************************/
 #flex-formulaire h2{
     text-align: center;
