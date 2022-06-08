@@ -6,7 +6,7 @@
         2. https://openclassrooms.com/fr/
         3. https://believemy.com/
 
-# Here is my three websites and one bonus   
+# Here is my three websites and one bonus
 
         1. https://www.investiraupays.com/
         2. https://courses.webdevsimplified.com/
@@ -15,6 +15,10 @@
 
 # Here is the business facebook page
 
-        1. https://www.facebook.com/investiraupays/  
+        1. https://www.facebook.com/investiraupays/
 
+[ Le site est en contruction ]
 
+        Nous sommes entrain de contruire notre site de zero
+
+        Nous sommes une équipe de trois personnes qui nous sommes soudé l'un des autres et avec l'objectif de pouvoir reussir notre projet.
