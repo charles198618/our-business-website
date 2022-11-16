@@ -22,3 +22,5 @@
         Nous sommes entrain de contruire notre site de zero
 
         Nous sommes une équipe de trois personnes qui nous sommes soudé l'un des autres et avec l'objectif de pouvoir reussir notre projet.
+
+        Nous sommes à la fin de la realisation de notre première partie  de notre site celui de la réalisation du front end alors nous sommes en train de faire le maximum pour la finalisation et la mise en ligne de notre projet.
