@@ -236,15 +236,18 @@ header {
     color: green;
     font-size: 2.9em;
     font-weight: bold;
+    margin-bottom: 15px;
   }
   50% {
     color: green;
     font-weight: bold;
+    margin-bottom: 15px;
   }
   75% {
     color: green;
     font-size: 3em;
     font-weight: bold;
+    margin-bottom: 15px;
   }
   100% {
     color: white;
