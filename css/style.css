@@ -466,14 +466,14 @@ header::before {
 }
 .services_container .cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   justify-content: space-between;
   align-items: center;
   margin-bottom: 3rem;
 }
 .services_container .cards .card {
   background-color: var(--primary);
-  padding: 1.5rem 1rem;
+  padding: 1rem 1rem;
   margin: 0 1.5rem;
   cursor: pointer;
   position: relative;
