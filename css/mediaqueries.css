@@ -206,4 +206,39 @@
       justify-content: center;
     }
   }
+
+  @media all and (max-width: 410px) {
+    header {
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      margin-top: 200px;
+    }
+    .header_left{
+      display: none;
+    }
+    .header_right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #flex-formulaire {
+      width: 85%;
+    }
+    [type="text"],
+    [type="email"] {
+      width: 98%;
+      margin-left: 2px;
+    }
+    textarea {
+      width: 98%;
+    }
+    [type="submit"] {
+      width: 98%;
+    }
+    .footer_1 img {
+      display: none;
+    }
+  }
   
